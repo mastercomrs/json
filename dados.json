@@ -1,0 +1,10 @@
+const jsonData = {
+  processarDados: function(input) {
+    return input.replace(/\D/g, '');
+  }
+};
+
+// Exemplo de entrada
+const entrada = "abc123def456";
+const numeros = jsonData.processarDados(entrada);
+console.log(numeros); // Saída: "123456"
